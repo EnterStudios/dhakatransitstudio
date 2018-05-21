@@ -1,0 +1,19 @@
+{
+  "name": "PVTA",
+  "app_id": "844c38fa",
+  "gulpStartupTasks": [
+    "default"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "integrations": {
+    "gulp": {}
+  },
+  "type": "ionic1",
+  "gulp": {
+    "enabled": true
+  },
+  "yarn": true
+}
